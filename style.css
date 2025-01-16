@@ -83,7 +83,7 @@ main {
 }
 
 .profile-details {
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,14 +97,12 @@ main {
 }
 
 .profile-details-1 {
-    width: 100%;
-    justify-self: center;
-    gap: 220px;
+    justify-content: space-between;
 }
 
 .profile-details-2 {
-    width: 100%;
-    padding: 0 8px 0 8px;
+    width: auto;
+    padding: 0 8px 0 0;
     justify-content: space-between;
 }
 
@@ -117,28 +115,33 @@ main {
 .search-bar {
     width: 60%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 .search-bar input {
-    width: 90%;
+    width: 75%;
     background-color: rgb(247, 235, 219);
     border-radius: 10px;
     border: none;
 }
 
 .profile-subdetails {
+    border: 3px solid black;
     width: 20%;
-    gap: 40px;
+    gap: 20px;
+    padding-right: 250px;
 }
 
 .user-name {
     align-self: center;
+    border: 3px solid green;
+    white-space: nowrap; 
 }
 
 .welcome-container {
     display: flex;
-    width: 40%;
+    width: auto;
     gap: 5px;
 }
 
@@ -147,24 +150,26 @@ main {
     flex-direction: column;
     gap: 5px;
 }
+
 .welcome-container img {
     width: 55px;
     height: 55px;
 }
 
 .buttons {
-    width: 40%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 10px;
 }
 
 button {
     background-color: rgb(250, 222, 184);
     border: none;
-    width: 120px;
+    width: 80px;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     font-weight: bold;
     font-size: 0.8rem;
