@@ -279,3 +279,7 @@ button {
     width: 42px;
     height: 42px;
 }
+
+.trending-item-name {
+    align-self: center;
+}
